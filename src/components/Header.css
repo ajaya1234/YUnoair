@@ -1,0 +1,145 @@
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+      display: block;
+    }
+  }
+
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+
+  /* medium and up screens */
+  @media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+  }
+
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start {
+    transform: translateX(0);
+  }
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+      display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+      display: block;
+    }
+  }
+
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+
+  /* medium and up screens */
+  @media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+  }
+
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start {
+    transform: translateX(0);
+  }
+
+  /* external css: flickity.css */
+
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .gallery {
+    background: #EEE;
+  }
+
+  .gallery-cell {
+    width: 66%;
+    height: auto;
+    margin: 15px;
+    /* background: #8C8; */
+    counter-increment: gallery-cell;
+  }
+
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+
+  #time {
+
+    font-size: 20px;
+    right: 30px;
+    bottom: 20px;
+  }
+
+  #video-title {
+    font-size: 20px;
+  }
+
+  #float-right {
+    margin-right: 110px;
+    float: right !important;
+  }
+
+  .flickity-page-dots {
+    display: none;
+  }
+
+  #video-view {
+
+    font-size: 16px;
+    color: black;
+  }
+
+
+  #video-card-image {
+    border-radius: 20px;
+  }
+
+  #btn {
+
+    background: #000080;
+    border-radius: 20px;
+  }
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    height: 60px;
+}

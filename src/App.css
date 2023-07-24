@@ -1,0 +1,81 @@
+.category-item{
+    box-sizing: border-box;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 17px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    }
+    
+    
+    .category-item img{
+    
+       background: none;
+       height: 35px;
+       width: 45px;
+       position: relative;
+        top: 10px;
+        box-shadow: none;
+        border-radius: none;
+    }
+    .category-item h5{
+    color: white;
+    position: relative;
+        top: 15px;
+    }
+    .category-item{
+        box-sizing: border-box;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+        box-shadow: 2px 2px 17px rgba(0, 0, 0, 0.11);
+        border-radius: 10px;
+        }
+        
+        .category_item {
+            margin: 20px 0px 20px 50px;
+        }
+        .category_img {
+            width: 60px;
+            border-radius: 50%;
+        }
+        .category-item h5{
+        color: black;
+        position: relative;
+            top: 15px;
+        }
+        button.slick-arrow {
+            z-index: 1;
+        }
+        .slick-prev:before{
+            font-family: 'slick';
+            line-height: 1;
+            opacity: .75;
+            color: #f3f3f3 !important;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            margin-left: 32px !important;
+            font-size: 45px !important;
+        }
+        .slick-next:before {
+            font-family: 'slick';
+            line-height: 1;
+            opacity: .75;
+            color: #f3f3f3 !important;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            margin-left: -93px !important;
+            font-size: 45px !important;
+        }
+        h6.category_h6 {
+            padding: 5px 15px;
+        }
+        .carousel-item {
+            width: 133% !important;
+        }
+        .login-main-body {
+            height: 100%;
+            margin-bottom: 33rem;
+        }
+        section.login-main-wrapper {
+            margin-bottom: 9rem;
+        }
+        a.footer_app_btn {
+            margin-right: 3px;
+        }

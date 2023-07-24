@@ -1,0 +1,50 @@
+.urlname3{
+    position: relative;
+}
+.icon3{
+    position: absolute;
+    top: 459px;
+    right: 25px;
+}
+
+.profile1{
+    position: relative;
+}
+.icon1{
+    position: absolute;
+    top: 312px;
+    right: 25px;
+}
+
+.profile2{
+    position: relative;
+}
+.icon2{
+    position: absolute;
+    top: 387px;
+    right: 25px;
+}
+
+
+
+
+.subscription{
+    position: relative;
+}
+
+.subscriptionicon{
+    position: absolute;
+    right: 12px;
+    top:570px;
+}
+
+.playlist{
+    position: relative;
+}
+.playlisticon{
+    position: absolute;
+    right: 12px;
+    top: 595px;
+
+}
+

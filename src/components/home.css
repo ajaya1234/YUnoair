@@ -1,0 +1,43 @@
+
+  @media only screen and ( min-width: 320px ) and ( max-width: 600px) {
+  
+.subbtn{
+ 
+float: right;
+}
+
+.mainprofile{
+    position: relative;
+}
+.mainprofileimg{
+    position: absolute;
+    left:0px;
+    top: -10px;
+}
+.mainprofilecannelname{
+    position: absolute;
+    left:44px;
+}
+.mainprofilePublished{
+    bottom: 1px;
+    left: 0px;
+}
+.mainprofileicon{
+    position: absolute;
+    left: 75px;
+}
+  }
+
+
+
+  .boxdoticons{
+    position: relative;
+    }
+    .doticon{
+    position: absolute;
+    top: 167px;
+    right: 18px;
+    }
+
+
+    
